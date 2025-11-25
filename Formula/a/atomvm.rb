@@ -15,7 +15,7 @@ class Atomvm < Formula
   depends_on "cmake" => :build
   depends_on "gperf" => :build
   depends_on "erlang@27" => :build
-  depends_on "elixir" => :build
+  depends_on "elixir@1.18" => :build
   depends_on "zlib"
   depends_on "mbedtls@3"
 
