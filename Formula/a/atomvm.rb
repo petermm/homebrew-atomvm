@@ -17,7 +17,7 @@ class Atomvm < Formula
   depends_on "erlang" => :build
   depends_on "elixir" => :build
   depends_on "zlib"
-  depends_on "mbedtls"
+  depends_on "mbedtls@3"
 
   def install
     system "cmake", "-S", ".", "-B", "build", "-D", "AVM_BUILD_RUNTIME_ONLY=on", *std_cmake_args
