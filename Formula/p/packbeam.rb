@@ -12,7 +12,7 @@ class Packbeam < Formula
   license "Apache License 2.0"
   version "0.7.5"
 
-  depends_on "erlang" => :build
+  depends_on "erlang@27" => :build
   depends_on "rebar3" => :build
   depends_on "gzip" => :build
 
